@@ -1,0 +1,302 @@
+[
+    {
+        "ESTADO_INICIO": "1000000000",
+        "CONDICIONES": "1111111111",
+        "mechanismo": "1111111111",
+        "alcance": "1111111111"
+    },
+    {
+        "ESTADO_INICIO": "1000000000",
+        "CONDICIONES": "1111111111",
+        "mechanismo": "1111111110",
+        "alcance": "1111111111"
+    },
+    {
+        "ESTADO_INICIO": "1000000000",
+        "CONDICIONES": "1111111111",
+        "mechanismo": "0111111111",
+        "alcance": "1111111111"
+    },
+    {
+        "ESTADO_INICIO": "1000000000",
+        "CONDICIONES": "1111111111",
+        "mechanismo": "0111111110",
+        "alcance": "1111111111"
+    },
+    {
+        "ESTADO_INICIO": "1000000000",
+        "CONDICIONES": "1111111111",
+        "mechanismo": "1010101010",
+        "alcance": "1111111111"
+    },
+    {
+        "ESTADO_INICIO": "1000000000",
+        "CONDICIONES": "1111111111",
+        "mechanismo": "0101010101",
+        "alcance": "1111111111"
+    },
+    {
+        "ESTADO_INICIO": "1000000000",
+        "CONDICIONES": "1111111111",
+        "mechanismo": "1101101101",
+        "alcance": "1111111111"
+    },
+    {
+        "ESTADO_INICIO": "1000000000",
+        "CONDICIONES": "1111111111",
+        "mechanismo": "1111111111",
+        "alcance": "1111111110"
+    },
+    {
+        "ESTADO_INICIO": "1000000000",
+        "CONDICIONES": "1111111111",
+        "mechanismo": "1111111110",
+        "alcance": "1111111110"
+    },
+    {
+        "ESTADO_INICIO": "1000000000",
+        "CONDICIONES": "1111111111",
+        "mechanismo": "0111111111",
+        "alcance": "1111111110"
+    },
+    {
+        "ESTADO_INICIO": "1000000000",
+        "CONDICIONES": "1111111111",
+        "mechanismo": "0111111110",
+        "alcance": "1111111110"
+    },
+    {
+        "ESTADO_INICIO": "1000000000",
+        "CONDICIONES": "1111111111",
+        "mechanismo": "1010101010",
+        "alcance": "1111111110"
+    },
+    {
+        "ESTADO_INICIO": "1000000000",
+        "CONDICIONES": "1111111111",
+        "mechanismo": "0101010101",
+        "alcance": "1111111110"
+    },
+    {
+        "ESTADO_INICIO": "1000000000",
+        "CONDICIONES": "1111111111",
+        "mechanismo": "1101101101",
+        "alcance": "1111111110"
+    },
+    {
+        "ESTADO_INICIO": "1000000000",
+        "CONDICIONES": "1111111111",
+        "mechanismo": "1111111111",
+        "alcance": "0111111111"
+    },
+    {
+        "ESTADO_INICIO": "1000000000",
+        "CONDICIONES": "1111111111",
+        "mechanismo": "1111111110",
+        "alcance": "0111111111"
+    },
+    {
+        "ESTADO_INICIO": "1000000000",
+        "CONDICIONES": "1111111111",
+        "mechanismo": "0111111111",
+        "alcance": "0111111111"
+    },
+    {
+        "ESTADO_INICIO": "1000000000",
+        "CONDICIONES": "1111111111",
+        "mechanismo": "0111111110",
+        "alcance": "0111111111"
+    },
+    {
+        "ESTADO_INICIO": "1000000000",
+        "CONDICIONES": "1111111111",
+        "mechanismo": "1010101010",
+        "alcance": "0111111111"
+    },
+    {
+        "ESTADO_INICIO": "1000000000",
+        "CONDICIONES": "1111111111",
+        "mechanismo": "0101010101",
+        "alcance": "0111111111"
+    },
+    {
+        "ESTADO_INICIO": "1000000000",
+        "CONDICIONES": "1111111111",
+        "mechanismo": "1101101101",
+        "alcance": "0111111111"
+    },
+    {
+        "ESTADO_INICIO": "1000000000",
+        "CONDICIONES": "1111111111",
+        "mechanismo": "1111111111",
+        "alcance": "0111111110"
+    },
+    {
+        "ESTADO_INICIO": "1000000000",
+        "CONDICIONES": "1111111111",
+        "mechanismo": "1111111110",
+        "alcance": "0111111110"
+    },
+    {
+        "ESTADO_INICIO": "1000000000",
+        "CONDICIONES": "1111111111",
+        "mechanismo": "0111111111",
+        "alcance": "0111111110"
+    },
+    {
+        "ESTADO_INICIO": "1000000000",
+        "CONDICIONES": "1111111111",
+        "mechanismo": "0111111110",
+        "alcance": "0111111110"
+    },
+    {
+        "ESTADO_INICIO": "1000000000",
+        "CONDICIONES": "1111111111",
+        "mechanismo": "1010101010",
+        "alcance": "0111111110"
+    },
+    {
+        "ESTADO_INICIO": "1000000000",
+        "CONDICIONES": "1111111111",
+        "mechanismo": "0101010101",
+        "alcance": "0111111110"
+    },
+    {
+        "ESTADO_INICIO": "1000000000",
+        "CONDICIONES": "1111111111",
+        "mechanismo": "1101101101",
+        "alcance": "0111111110"
+    },
+    {
+        "ESTADO_INICIO": "1000000000",
+        "CONDICIONES": "1111111111",
+        "mechanismo": "1111111111",
+        "alcance": "1010101010"
+    },
+    {
+        "ESTADO_INICIO": "1000000000",
+        "CONDICIONES": "1111111111",
+        "mechanismo": "1111111110",
+        "alcance": "1010101010"
+    },
+    {
+        "ESTADO_INICIO": "1000000000",
+        "CONDICIONES": "1111111111",
+        "mechanismo": "0111111111",
+        "alcance": "1010101010"
+    },
+    {
+        "ESTADO_INICIO": "1000000000",
+        "CONDICIONES": "1111111111",
+        "mechanismo": "0111111110",
+        "alcance": "1010101010"
+    },
+    {
+        "ESTADO_INICIO": "1000000000",
+        "CONDICIONES": "1111111111",
+        "mechanismo": "1010101010",
+        "alcance": "1010101010"
+    },
+    {
+        "ESTADO_INICIO": "1000000000",
+        "CONDICIONES": "1111111111",
+        "mechanismo": "0101010101",
+        "alcance": "1010101010"
+    },
+    {
+        "ESTADO_INICIO": "1000000000",
+        "CONDICIONES": "1111111111",
+        "mechanismo": "1101101101",
+        "alcance": "1010101010"
+    },
+    {
+        "ESTADO_INICIO": "1000000000",
+        "CONDICIONES": "1111111111",
+        "mechanismo": "1111111111",
+        "alcance": "0101010101"
+    },
+    {
+        "ESTADO_INICIO": "1000000000",
+        "CONDICIONES": "1111111111",
+        "mechanismo": "1111111110",
+        "alcance": "0101010101"
+    },
+    {
+        "ESTADO_INICIO": "1000000000",
+        "CONDICIONES": "1111111111",
+        "mechanismo": "0111111111",
+        "alcance": "0101010101"
+    },
+    {
+        "ESTADO_INICIO": "1000000000",
+        "CONDICIONES": "1111111111",
+        "mechanismo": "0111111110",
+        "alcance": "0101010101"
+    },
+    {
+        "ESTADO_INICIO": "1000000000",
+        "CONDICIONES": "1111111111",
+        "mechanismo": "1010101010",
+        "alcance": "0101010101"
+    },
+    {
+        "ESTADO_INICIO": "1000000000",
+        "CONDICIONES": "1111111111",
+        "mechanismo": "0101010101",
+        "alcance": "0101010101"
+    },
+    {
+        "ESTADO_INICIO": "1000000000",
+        "CONDICIONES": "1111111111",
+        "mechanismo": "1101101101",
+        "alcance": "0101010101"
+    },
+    {
+        "ESTADO_INICIO": "1000000000",
+        "CONDICIONES": "1111111111",
+        "mechanismo": "1111111111",
+        "alcance": "1101101101"
+    },
+    {
+        "ESTADO_INICIO": "1000000000",
+        "CONDICIONES": "1111111111",
+        "mechanismo": "1111111110",
+        "alcance": "1101101101"
+    },
+    {
+        "ESTADO_INICIO": "1000000000",
+        "CONDICIONES": "1111111111",
+        "mechanismo": "0111111111",
+        "alcance": "1101101101"
+    },
+    {
+        "ESTADO_INICIO": "1000000000",
+        "CONDICIONES": "1111111111",
+        "mechanismo": "0111111110",
+        "alcance": "1101101101"
+    },
+    {
+        "ESTADO_INICIO": "1000000000",
+        "CONDICIONES": "1111111111",
+        "mechanismo": "1010101010",
+        "alcance": "1101101101"
+    },
+    {
+        "ESTADO_INICIO": "1000000000",
+        "CONDICIONES": "1111111111",
+        "mechanismo": "0101010101",
+        "alcance": "1101101101"
+    },
+    {
+        "ESTADO_INICIO": "1000000000",
+        "CONDICIONES": "1111111111",
+        "mechanismo": "1101101101",
+        "alcance": "1101101101"
+    },
+    {
+        "ESTADO_INICIO": "1000000000",
+        "CONDICIONES": "1111111111",
+        "mechanismo": "0111111111",
+        "alcance": "0111111001"
+    }
+]

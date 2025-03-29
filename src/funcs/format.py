@@ -29,25 +29,28 @@ def fmt_biparticion(
 def fmt_biparte_q(
     prim: list[tuple[int, int]],
     dual: list[tuple[int, int]],
-    to_sort: bool = True,
+    order: bool = True,
 ) -> str:
-    top_prim, bottom_prim = fmt_parte_q(prim, to_sort)
-    top_dual, bottom_dual = fmt_parte_q(dual, to_sort)
+    top_prim, bottom_prim = fmt_parte_q(prim, order)[0]
+    top_dual, bottom_dual = fmt_parte_q(dual, order)[0]
 
-    return f"{top_prim}{top_dual}\n{bottom_prim}{bottom_dual}\n"
+    top_prim2, bottom_prim2 = fmt_parte_q(prim, order)[1]
+    top_dual2, bottom_dual2 = fmt_parte_q(dual, order)[1]
 
 
-def fmt_parte_q(parte: list[tuple[int, int]], to_sort: bool = True) -> tuple[str, str]:
-    if to_sort:
-        # Ordenar por índice #
-        parte.sort(key=lambda x: x[1])
+    return [f"{top_prim}{top_dual}\n{bottom_prim}{bottom_dual}\n", f"[[{top_prim2}t+1,{bottom_prim2}t],[[{top_dual2} t+1],[{bottom_dual2} t]]"]
+
+
+def fmt_parte_q(parte: list[tuple[int, int]], order: bool = True) -> tuple[str, str]:
+    if order:
+        parte.sort(key=lambda x: x[1])  # Ordenar por índice
 
     purv, mech = [], []
     for time, idx in parte:
         purv.append(ABECEDARY[idx]) if time else mech.append(LOWER_ABECEDARY[idx])
 
-    str_purv = ",".join(purv) if purv else VOID_STR
-    str_mech = ",".join(mech) if mech else VOID_STR
-    width = max(len(str_purv), len(str_mech)) + 2
+    width = max(len(purv), len(mech)) + 2
+    str_purv = "".join(purv) if purv else VOID_STR
+    str_mech = "".join(mech) if mech else VOID_STR
 
-    return f"⎛{str_purv:^{width}}⎞", f"⎝{str_mech:^{width}}⎠"
+    return [[f"⎛{str_purv:^{width}}⎞", f"⎝{str_mech:^{width}}⎠"],[str_purv, str_mech]]

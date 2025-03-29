@@ -155,7 +155,8 @@ class QNodes(SIA):
             distribucion_subsistema=self.sia_dists_marginales,
             distribucion_particion=self.memoria_particiones[mip][1],
             tiempo_total=time.time() - self.sia_tiempo_inicio,
-            particion=fmt_mip,
+            particion=fmt_mip[0],
+            particion_2=fmt_mip[1]
         )
 
     def algorithm(self, vertices: list[tuple[int, int]]):
