@@ -267,7 +267,7 @@ class QNodes(SIA):
                 if isinstance(deltas_ciclo[LAST_IDX], list)
                 else deltas_ciclo
             )
-
+            # Particion Candidata
             omegas_ciclo.pop()
             omegas_ciclo.append(par_candidato)
 
