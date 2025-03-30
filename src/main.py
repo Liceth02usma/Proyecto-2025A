@@ -26,7 +26,7 @@ from src.middlewares.limpiezaDatos import ControladorSubsistema
 import time
 import threading
 
-
+# Prueba de Exceso de Tiempo
 def ejecutar_con_tiempo_limite(func, args=(), timeout=1800):
     resultado = []
     # 1800 segundos = 30 minutos
@@ -47,11 +47,14 @@ def ejecutar_con_tiempo_limite(func, args=(), timeout=1800):
 """"
 Función para ejecutar el subsistema automatizado
 """
+# prueba de Ejecucion automatica (prueba de integracion)
+# Prueba de captura de errores
 def exec_automatica(URL, sistema_candidato, estado_inicio):
     INICIO = 10    # <-- Cambiar el valor de inicio
-
+    # Prueba de Entrada de Datos y Objetos
     entrada_datos = ControladorSubsistema(URL, sistema_candidato, estado_inicio)
     entrada_datos.listaObjetos = entrada_datos.listaObjetos[INICIO:]
+
 
     print('Ya tiene los datos', len(entrada_datos.listaObjetos))
 
@@ -61,12 +64,13 @@ def exec_automatica(URL, sistema_candidato, estado_inicio):
         
         # Llamar a la función con tiempo límite
         lista = ejecutar_con_tiempo_limite(
-            start_up_QNodes, 
+            start_up_QNodes, #Prueba de lista llena con tiempo de ejecucion
             args=(i.ESTADO_INICIO, i.CONDICIONES, i.mechanismo, i.alcance)
         )
 
         if lista is not None:
             print(f'Procesando {INICIO} de {len(entrada_datos.listaObjetos)}')
+            # Prueba de carga de valores
             entrada_datos.formateo.CargarValores(lista, ((INICIO+1)*2+2))
             print('Cargando en el archivo')
         else:
@@ -78,7 +82,7 @@ def exec_automatica(URL, sistema_candidato, estado_inicio):
 
 
 
-
+#Prueba de valores de lista != None
 def start_up_QNodes(estado_inicio, condiciones, mechanismo, alcance):
     """Punto de entrada principal"""
                    # ABCD #
@@ -96,6 +100,6 @@ def start_up_QNodes(estado_inicio, condiciones, mechanismo, alcance):
     sia_dos = analizador_fi.aplicar_estrategia(condiciones, alcance, mechanismo)
     end_time = time.time()
     #mi_logger.debug(sia_dos.particion)
-    print([sia_dos.particion_2,sia_dos.perdida, f'{end_time - start_time:.6f}seg'])
+    #print([sia_dos.particion_2,sia_dos.perdida, f'{end_time - start_time:.6f}seg'])
     return [sia_dos.particion_2,sia_dos.perdida, round(end_time - start_time,6)]
 
