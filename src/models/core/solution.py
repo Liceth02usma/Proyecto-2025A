@@ -100,7 +100,7 @@ class Solution:
         distribucion_subsistema: np.ndarray,
         distribucion_particion: np.ndarray,
         particion: str,
-        particion_2: str,
+        particion_2:str = None,
         hablar: bool = False,
         voz: Optional[str] = None,
     ) -> None:

@@ -4,6 +4,8 @@ import numpy as np
 INFTY_POS: float = float("inf")
 INFTY_NEG: float = float("-inf")
 
+
+
 INT_ZERO: int = int(0)
 INT_ONE: int = int(1)
 
@@ -34,7 +36,8 @@ LINE_SYM: str = "-"
 
 EQUITIES = "≌", "≆", "≇", "≄", "≒"
 NEQ_SYM: str = "≠"
-
+NET_LABEL: str = "NET"
+TYPE_TAG = "type"
 BITS: tuple[int, int] = (0, 1)
 ACTIVOS, INACTIVOS = True, False
 
