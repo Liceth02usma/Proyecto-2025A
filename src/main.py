@@ -46,6 +46,7 @@ from src.subsistema.limpiezaDatos import ControladorSubsistema
 import time
 from src.models.logic.q_nodes import QNodes
 from src.models.logic.phi import Phi
+from src.models.logic.geometric import GeometricSIA
 import threading
 
 
@@ -55,19 +56,19 @@ import threading
 def start_up():
     """Punto de entrada principal"""
                    # ABCDEFGHIJ#
-    estado_inicial = "1000"  #Fragemento a tomar 
-    condiciones =    "1111" #subconjunto de nodos
-    alcance =        "1111" # T1
-    mecanismo =      "1111"# T0
+    estado_inicial = "100"  #Fragemento a tomar 
+    condiciones =    "111" #subconjunto de nodos
+    alcance =        "111" # T1
+    mecanismo =      "111"# T0
     
 
     config_sistema = Manager(estado_inicial=estado_inicial)
 
-    analizador_fi = Phi(config_sistema)
+    analizador_fi = QNodes(config_sistema)
     start_time = time.time()
     sia_dos = analizador_fi.aplicar_estrategia(condiciones, alcance, mecanismo)
     end_time = time.time()
-    print([sia_dos.particion_2,sia_dos.perdida, f'{end_time - start_time:.6f}seg'])
+    #print([sia_dos.particion_2,sia_dos.perdida, f'{end_time - start_time:.6f}seg'])
     #mi_logger.debug(sia_dos.particion)
     print(sia_dos)
 

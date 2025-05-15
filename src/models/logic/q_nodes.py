@@ -131,7 +131,7 @@ class QNodes(SIA):
         vertices = list(mech + purv)
         self.vertices = set(mech + purv)
         mip = self.algorithm(vertices)
-
+        print(f"Dist: {self.memoria_particiones[mip]}")
         fmt_mip = fmt_biparte_q(list(mip), self.nodes_complement(mip))
 
         return Solution(
