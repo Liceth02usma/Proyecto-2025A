@@ -64,7 +64,7 @@ def start_up():
 
     config_sistema = Manager(estado_inicial=estado_inicial)
 
-    analizador_fi = QNodes(config_sistema)
+    analizador_fi = GeometricSIA(config_sistema)
     start_time = time.time()
     sia_dos = analizador_fi.aplicar_estrategia(condiciones, alcance, mecanismo)
     end_time = time.time()
